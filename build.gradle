@@ -30,3 +30,5 @@ dependencies { // dependencies는 프로잭트 개발에 필요한 의존성들�
     testCompileOnly('org.springframework.boot:spring-boot-starter-test') // 특정 버전을 명시하면 안됨, 버전 선언시 버전 충돌 문제 생김
 }
 // gradle 7.0 버전부터 compile, runtime, testCompile, testRuntime -> implementation, runtimeOnly, testImplementation, testRuntimeOnly로 대체
+// idea 디렉토리는 intellij실행 시 자동으로 생성되는 파일들, 커밋할 필요 x
+// intellij에서는 .gitignore 파일에 대한 지원 없음, 플러그인에서  지원함
